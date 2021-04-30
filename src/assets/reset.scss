@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Calibre;
+  src: url('./fonts/Calibre-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-size: 14px;
+  color: #262626;
+  font-family: Calibre, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+    sans-serif;
+  @media screen and (min-width: 568px) {
+    font-size: 16px;
+  }
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+ul,
+li {
+  list-style: none;
+}
+:focus {
+  outline: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.first-letter::first-letter {
+  text-transform: uppercase;
+}
